@@ -1,0 +1,19 @@
+section.pride{
+    padding: 50px 0px;
+    background-color: #17283a;
+    .link{
+        span{
+            padding: 15px 25px;
+            font-size: 20px;
+            color: white;
+            border: 1px solid white;
+            &:hover{
+                background-color: black;
+                border: 1px solid black;
+                border-radius: 50%;
+                transition-duration: 1s;
+                cursor: pointer;
+            }
+        }
+    }
+}

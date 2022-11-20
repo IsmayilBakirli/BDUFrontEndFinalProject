@@ -1,0 +1,27 @@
+@import "./base/reset";
+@import "./pages/home";
+@import "./pages/login";
+@import "./pages/profilePage";
+@import "./pages/katib";
+@import "./pages/teacher";
+@import "./pages/newsdetail";
+// @media screen and (max-width:992px) {
+//     .mainNavbar{
+//         .pageLinks{
+//             display: none !important;
+//         }
+//         .menuBar{
+//             display: block !important;
+//         }
+//         // .col-lg-6{
+//         //     h2{
+//         //         font-size: 14px;
+//         //     }
+//         // }
+//     }
+// }
+// @media  screen and (min-width:992px) {
+//     .menuBar{
+//         display: none !important;
+//     }
+// }

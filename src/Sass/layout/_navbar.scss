@@ -1,0 +1,143 @@
+.mainNavbar {
+    // background:linear-gradient(rgb(37, 37, 83),rgb(15, 15, 46),rgb(142, 142, 220));
+    // background-color: #04162b;
+    background-color: black;
+    // background-color:yellow;
+    height: 150px;
+    padding: 20px 0px 0px 0px;
+    .col-lg-6 {
+        img {
+            width: 100px;
+            height: 100px;
+
+        }
+
+        ul.d-flex {
+            li {
+                color: white;
+            }
+        }
+
+        .barIcon {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 36px;
+        }
+
+        .telebe {
+            &:hover {
+                .telebeHoverMenu {
+                    position: absolute;
+                    padding: 10px;
+                    border-radius: 5px;
+                    background-color: white;
+                    z-index: 999;
+                    display: block !important;
+                }
+            }
+        }
+
+        .bdu {
+            &:hover {
+                .bduHoverMenu {
+                    position: absolute;
+                    background-color: white;
+                    border-radius: 5px;
+                    z-index: 999;
+                    padding: 10px;
+                    display: block !important;
+                }
+            }
+        }
+
+        .academyc {
+            &:hover {
+                .academycHoverMenu {
+                    position: absolute;
+                    background-color: white;
+                    border-radius: 5px;
+                    z-index: 999;
+                    padding: 10px;
+                    display: block !important;
+                }
+            }
+
+            .academycHoverMenu {
+                li {
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .col-lg-6.menu {
+        position: relative;
+        z-index: 999;
+        top: -50px;
+        height: 450px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px gray;
+
+        ul {
+            li {
+                width: 100%;
+
+                h3 {
+                    padding: 10px 40px;
+                    border-bottom: 1px solid black;
+                    color: black;
+
+                    &:hover {
+                        color: aqua;
+                        transition-duration: .7s;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .col-lg-6.pageLinks {
+        ul {
+            height: 100%;
+        }
+    }
+}
+
+.layoutNav {
+    .header {
+        background: linear-gradient(rgb(0, 0, 1), rgb(13, 13, 15));
+        height: 80px;
+        padding: 20px 50px;
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
+
+li.main {
+    font-size: 23px;
+    border-bottom: 1px solid black;
+
+}
+
+nav.profile {
+    padding: 20px 30px;
+    background-color: blueviolet;
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+li.active {
+    background-color: rgb(56, 56, 132);
+    color: white !important;
+    border: none;
+}

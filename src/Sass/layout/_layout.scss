@@ -1,0 +1,33 @@
+section.layout{
+    .col-2{
+        // height: ; 
+        .title{
+            background: linear-gradient(rgb(2, 2, 71),rgb(2, 2, 46));
+            height: 60px;
+            h3{
+                color: white;
+            }
+        }
+        .options{
+            height: 100%;
+            background: linear-gradient(rgb(19, 11, 72),rgb(13, 13, 33),rgb(13, 13, 25));
+            color: white;
+            ul{
+                li{
+                    padding: 30px 70px 10px 70px;
+                    font-size: 21px;
+                    font-weight:600;
+                    border-bottom: 1px solid black;
+                    &:hover{
+                        padding-left: 92px;
+                        transition-duration: .4s;
+                    }
+                }
+            }
+        }
+    }
+    .active{
+        color: green;
+        
+    }
+}

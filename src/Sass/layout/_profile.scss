@@ -1,0 +1,149 @@
+.profile{
+    // background-color: #172b4d;
+    .container{
+        // border: 1px solid black;
+        .col-lg-5{
+            margin-top: 100px;
+            padding: 100px;
+            box-shadow: 2px 2px 2px 2px grey;
+        }
+    }
+}
+.stprofile{
+    .journal{
+        ul{
+            margin-top: 30px;
+            li{
+                padding: 15px 30px;
+                box-shadow: 2px 2px 2px grey;
+                &:hover{
+                    background-color: rgb(90, 90, 215);
+                    color: white;
+                    transition-duration: .7s;
+                    cursor: pointer;
+                }
+            }
+        }
+        table{
+            width: 100%;
+            thead{
+
+                tr{
+                    background-color: aqua;
+                    th{
+                        padding: 5px 20px;
+                        p{
+                            margin-bottom: 0;
+                            // padding: 5px 20px;
+                            // margin-right: 100px !important;  
+
+                        } 
+                    }
+                }
+            }
+            tbody{
+                tr{
+                    background-color: rgb(140, 184, 184);
+                    td{
+                        padding: 5px 20px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+.container.stprofile {
+    .row {
+        margin-top: 50px;
+
+        .col-10 {
+            .image {
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC-hLCDlUQFEAaE4yuzT2fN_YeK8Y88hj5Pw&usqp=CAU");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                height: 200px;
+                padding: 5px;
+                border-radius: 10px;
+            }
+
+            .datas {
+                position: relative;
+                top: -60px;
+                .col-4.left {
+                    padding: 30px 15px;
+                    .filter {
+                        background-color: white;
+                        opacity: .7;
+                        border: 1px solid black;
+                        form{
+                            padding: 10px 20px;
+                            select{
+                                width: 100%;
+                                background-color: red;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+
+                .col-8 {
+                    padding: 30px 15px;
+                    .results {
+                        padding: 30px 20px;
+                        background-color: white;
+                        opacity: .7;
+                        border: 1px solid black;
+                        .col-4{
+                            padding: 10px;
+                            .myCard{
+                                opacity: 1;
+                                background-color: rgb(78, 78, 141);
+                                .myCardFooter{
+                                    opacity: 1;
+                                    background-color:rgb(5, 5, 84);
+                                    p{
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                            .myCardBody{
+                                padding: 10px;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+
+        }
+
+        nav.sideNav {
+            p {
+                cursor: pointer;
+                padding: 20px;
+                background-color: rgb(56, 56, 132);
+                color: white;
+                margin: 0px;
+
+                &:hover {
+                    opacity: 5;
+                }
+            }
+
+            ul {
+
+                li {
+                    padding: 10px;
+                    cursor: pointer;
+                    font-size: 14px;
+                    border: 1px solid grey;
+                    color: grey;
+                }
+            }
+        }
+
+    }
+
+}

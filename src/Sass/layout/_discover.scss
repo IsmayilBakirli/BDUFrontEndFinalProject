@@ -1,0 +1,56 @@
+section.discover{
+    height: 425px;
+    background-color:black;
+    .row.title{
+        h3{
+            font-size: 40px;
+            font-weight: bold;
+            margin-top: 100px ;
+            margin-bottom: 50px;
+        }
+    }
+    img{
+        height: 200px ;
+        border-radius: 10px;
+    }
+    .myCard{
+        .loadMore{
+            button{
+                background-color: black;
+                padding: 7px 18px;
+                border: 1px solid white;
+                transition-duration: .8s;
+                &:hover{
+                    background-color: white;
+                    span{
+                        color: black;
+                        border-bottom: 1px solid black;
+                        font-weight: 600;
+                    }
+                }
+                span{
+                    font-weight: 400;
+                    font-size: 20px;
+                    border-bottom: 1px solid white;
+                    color: white;
+                }
+               
+            }
+
+        }
+    }
+    
+}
+section.eventdetail{
+    .container{
+        .row{
+            .col-md-6.image{
+                height: 300px;
+                img{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

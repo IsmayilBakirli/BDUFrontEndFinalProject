@@ -1,0 +1,12 @@
+section.infos{
+    background-color: grey;
+    .container{
+        .row{
+            .col-2,.col-3{
+                height: 100px;
+                padding: 10px;
+                border: 1px solid black;
+            }
+        }
+    }
+}

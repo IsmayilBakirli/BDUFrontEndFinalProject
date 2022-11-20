@@ -1,0 +1,23 @@
+section.slider{
+    #carouselExampleSlidesOnly{
+        img{
+            position: relative;
+            height: 600px;
+
+            
+        }
+        .col-lg-6{
+            position:absolute ;
+            left:40%;
+            top: 30%;
+            h3{
+                font-size: 50px;
+                color: white;
+            }
+            h2{
+                font-size: 60px;
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+section.studying{
+    margin-top: 60px;
+    margin-bottom: 100px;
+    .row{
+        .col-3{
+            .myCard{
+                padding: 10px;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
